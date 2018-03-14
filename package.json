@@ -1,0 +1,22 @@
+{
+  "name": "graphql_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dououFullstack/graphql_test.git",
+  "author": "dououFullstack <13412133311@139.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon index.js --exec babel-node --presets env,stage-0",
+    "json-server": "./node_modules/.bin/json-server --watch db.json --port 3001"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.2"
+  },
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.24.1",
+    "json-server": "^0.12.1"
+  }
+}

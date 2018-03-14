@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "君不见，将进酒",
+      "content": "黄河之水天上来，奔流到海不复回",
+      "author": 1
+    },
+    {
+      "id": 2,
+      "title": "君不见，将进酒",
+      "content": "大漠孤烟直，长河落日圆",
+      "author": 2
+    },
+    {
+      "id": 3,
+      "title": "君不见，将进酒",
+      "content": "秦时明月汉时关",
+      "author": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "李白"
+    },
+    {
+      "id": 2,
+      "name": "杜甫"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "author": 1,
+      "content": "好诗！"
+    },
+    {
+      "id": 2,
+      "postId": 2,
+      "author": 1,
+      "content": "学习"
+    },
+    {
+      "id": 3,
+      "postId": 2,
+      "author": 2,
+      "content": "中国科学院"
+    }
+  ]
+}
